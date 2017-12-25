@@ -1,6 +1,6 @@
 # simple-memcached
 
-A Node.js package that act like a chache system,similarily redis cache and memcached do.
+A Node.js package that act like a cache system,similarily redis cache and memcached do.
 But this one too simple to use.
 ## Usage
 
