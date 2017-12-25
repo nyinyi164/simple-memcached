@@ -1,0 +1,24 @@
+{
+  "name": "simple-memcached",
+  "version": "1.0.0",
+  "description": "simply get and set data from database in cache: Javascript ",
+  "main": "simple-memcached.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyinyi164/simple-memcached.git"
+  },
+  "keywords": [
+    "memcached",
+    "cache",
+    "memorycache"
+  ],
+  "author": "Nyi Nyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nyinyi164/simple-memcached/issues"
+  },
+  "homepage": "https://github.com/nyinyi164/simple-memcached#readme"
+}
