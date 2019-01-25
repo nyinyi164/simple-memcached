@@ -50,6 +50,18 @@ Check this usage sample too;
         });
     }
 
+
+To delete specific cache data, call following function:
+
+    simpleCache.deleteCache("get_all_data");
+
+In this case, get_all_data is key name to delete from cache
+
+
+To clear all cache once, call following function:
+
+    simpleCache.clearCache();
+
 ## License
 
 ISC

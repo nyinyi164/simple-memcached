@@ -37,7 +37,27 @@ function getFromCache(key){
     }
 }
 
+function deleteCache(key){
+    if (typeof key == 'string' && key !== '') {
+        delete _Cache[keyData];
+        //cb(null,{status:200,desc:'setting cache success'});
+        return true;
+    }else{
+        //cb({status:500,desc:'setting cache fail'});
+        console.error('You must include key name to delete from cache')
+        return false;
+    }
+}
+
+function clearCache(){
+    _Cache = {};
+}
+
 
 exports.setCache = setCache;
 
 exports.getFromCache = getFromCache;
+
+exports.deleteCache = deleteCache;
+
+exports.clearCache = clearCache;
