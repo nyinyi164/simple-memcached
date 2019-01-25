@@ -51,6 +51,7 @@ function deleteCache(key){
 
 function clearCache(){
     _Cache = {};
+    return true;
 }
 
 
