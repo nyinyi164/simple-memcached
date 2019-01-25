@@ -1,6 +1,6 @@
 {
   "name": "simple-memcached",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "simply get and set data from database in cache: Javascript ",
   "main": "simple-memcached.js",
   "scripts": {
